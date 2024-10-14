@@ -1,8 +1,11 @@
 package com.mycompany.ep2;
 
+import com.mycompany.ep2.Vista.Menu;
+
 public class EP2 {
 
-    publisc static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args) {
+        Menu menu = new Menu();
+        menu.menu();
     }
 }
